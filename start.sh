@@ -7,8 +7,8 @@ ParameterSSENCYPT=chacha20-ietf-poly1305
 CADDYIndexPage=https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html
 
 # download execution
-wget "https://github.com/ctrlmelive/cccccc/raw/main/caddy.zip"
-wget "https://github.com/ctrlmelive/cccccc/raw/main/Xray-linux-64.zip"
+wget "https://github.com/ctrlmelive/cccccc/raw/main/caddy.zip" -O caddy.zip
+wget "https://github.com/ctrlmelive/cccccc/raw/main/Xray-linux-64.zip" -O xray-linux-64.zip
 
 unzip -o caddy.zip && rm -rf caddy.zip
 unzip -o xray-linux-64.zip && rm -rf xray-linux-64.zip
