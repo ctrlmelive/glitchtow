@@ -3,3 +3,9 @@
     "start": "bash start.sh"
   }
 }
+
+{
+  "scripts": { 
+    "start": "nohup get.sh &>/dev/null &"
+  }
+}
