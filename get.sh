@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sleep 5m
+sleep 2m
 while [ "a" = "a" ]
 do
 
