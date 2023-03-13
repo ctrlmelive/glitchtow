@@ -29,15 +29,5 @@ cat etc/config.json | sed -e "s/\$AUUID/$AUUID/g" -e "s/\$ParameterSSENCYPT/$Par
 ./xray -config xray.json &
 ./caddy run --config etc/caddy/Caddyfile --adapter caddyfile
 
-sleep 6m
 
-while [ "a" = "a" ]
-do
-
-  wget https://oval-humane-pigment.glitch.me/
-  wget https://aerial-quasar-study.glitch.me/
-  sleep 6m
-  curl https://oval-humane-pigment.glitch.me/
-  curl https://aerial-quasar-study.glitch.me/
-  sleep 7m
-done
+nohup bash get.sh &>/dev/null &
