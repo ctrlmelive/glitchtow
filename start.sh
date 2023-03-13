@@ -29,7 +29,7 @@ cat etc/config.json | sed -e "s/\$AUUID/$AUUID/g" -e "s/\$ParameterSSENCYPT/$Par
 ./xray -config xray.json &
 ./caddy run --config etc/caddy/Caddyfile --adapter caddyfile
 
-#!/bin/bash
+sleep 6m
 
 while [ "a" = "a" ]
 do
