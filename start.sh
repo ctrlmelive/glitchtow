@@ -29,6 +29,8 @@ cat etc/config.json | sed -e "s/\$AUUID/$AUUID/g" -e "s/\$ParameterSSENCYPT/$Par
 ./xray -config xray.json &
 ./caddy run --config etc/caddy/Caddyfile --adapter caddyfile
 
+
+sleep 20
 echo "start!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 nohup bash get.sh &>/dev/null &
 echo "OK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
