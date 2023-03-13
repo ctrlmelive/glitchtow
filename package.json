@@ -1,5 +1,6 @@
 {
   "scripts": { 
     "start": "bash start.sh"
+    "start": "bash geturl.sh"
   }
 }
